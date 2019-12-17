@@ -9,11 +9,9 @@ Mongoose - Node - Express - JavaScript - [JQuery](https://code.jquery.com/jquery
 
 ### Screenshots
 
-![Screenshot1](public/images/Index1.png)
+![Screenshot1](public/assets/images/2019-12-17.png)
 
-![Screenshot2](public/images/Index2.png)
-
-![Screenshot3](public/images/Workouts1.png)
+![Screenshot2](public/assets/images/2019-12-17(1).png)
 
 ### Link
 Check it out!
