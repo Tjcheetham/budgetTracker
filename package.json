@@ -1,0 +1,26 @@
+{
+  "name": "budgetTracker",
+  "version": "1.0.0",
+  "description": "Mongoose - Node - Express - JavaScript - [JQuery](https://code.jquery.com/jquery-3.3.1.slim.min.js) - [Bootstrap](https://getbootstrap.com/) - CSS - HTML",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tjcheetham/budgetTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tjcheetham/budgetTracker/issues"
+  },
+  "homepage": "https://github.com/Tjcheetham/budgetTracker#readme",
+  "dependencies": {
+    "chart.js": "^2.9.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.1"
+  }
+}

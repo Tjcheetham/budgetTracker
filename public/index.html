@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Budget Tracker</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="total">
+            <div>
+                <h3>Your Total Is: $<span id="total">0</span></h3>
+            </div>
+        </div>
+        <form class="form">
+            <div class="container">
+                <div class="row inputs">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <label for="t-name">Transaction Name:</label>
+                        <input type="text" id="t-name" placeholder=" Name" />
+                    </div>
+                    <div class="col-md-4">
+                        <label for="t-amount">Transaction Amount:</label>
+                        <input type="number" min="0" id="t-amount" placeholder=" Amount" />
+                    </div>
+                </div>
+
+                <div class="row transaction-buttons">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-2 depo-button">
+                        <button id="add-btn" class="deposit">+Deposit</button>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2 wd-button">
+                        <button class="withdrawal" id="sub-btn">-Withdrawal</button>
+                    </div>
+                </div>
+        </form>
+
+        <div class="row transactions">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <table>
+                    <thead>
+                        <th>Transactions:</th>
+                        <th>Amount:</th>
+                    </thead>
+                    <tbody id="tbody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <canvas id="my-chart"></canvas>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="/db.js"></script>
+    <script src="/index.js"></script>
+</body>
+
+</html>
