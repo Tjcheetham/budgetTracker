@@ -1,0 +1,19 @@
+{
+    "name": "Notetaker",
+    "short_name": "Notetaker",
+    "icons": [
+      {
+        "src": "assets/images/2019-12-17.png",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/2019-12-17(1).png",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "/",
+    "display": "standalone"
+  }
+  

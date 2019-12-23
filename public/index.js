@@ -139,14 +139,14 @@ function sendTransaction(isAdding) {
     });
 }
 
-document.querySelector("#add-btn").addEventListener("click", function(event) {
-  console.log("Clickety Clack")
+document.querySelector("#add-btn").onclick = function(event) {
+  console.log("clickety clack")
   event.preventDefault();
   sendTransaction(true);
-});
+};
 
-document.querySelector("#sub-btn").addEventListener("click", function(event) {
+document.querySelector("#sub-btn").onclick = function(event) {
   console.log("don't talk back")
   event.preventDefault();
   sendTransaction(false);
-});
+};
